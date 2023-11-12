@@ -1,0 +1,53 @@
+body{
+    margin: 1rem;
+    background-color: #dadada;
+    text-align: center;
+    justify-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.formulario{
+    border: 2px solid;
+    border-color: #989898;
+    border-radius: 0.7rem;
+    background-color: #c9c9c9;
+    width: 50%;
+}
+
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.interaccion{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.fechas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding: 0.5rem;
+}
+
+.boton{
+    padding: 0.5rem;
+}
+
+.resultado{
+    margin: 0.6rem;
+}
+
+.pie{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+    font-size: x-small;
+    font-weight: bold;
+    width: 50%;
+}
